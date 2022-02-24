@@ -31,7 +31,7 @@ header nav a{
     margin-right: 10px;
 }
 header nav a:hover{
-    color: aqua;
+    color: white;
 }
 .filme-principal{
     font-size: 16px;
@@ -75,4 +75,13 @@ header nav a:hover{
 }
 .filme-principal .container{ /*largura do site*/
     width: 70%;
+}
+.carrossel-filmes{
+    width: 1000px;
+    height: 500px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }

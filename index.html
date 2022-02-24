@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/estilo.css">
+    <!-- owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <title>Netflix</title>
 </head>
 <body>
@@ -27,17 +30,40 @@
                 <h2 class="descricao">Assista onde quiser. Cancele quando quiser.</h2>
                 <h3>Pronto para assistir? </h3>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button href="" class="botao">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA</button>
-                    <button role="button" class="botao">
+                    <button href="" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES</button>
                 </div>
             </div>
         </div>
     </main>
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme"src="img/alertavermelho.jpg" alt="alertavermelho">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="img/euphoria.jpg" alt="euphoria">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="img/flash.jpg" alt="flash">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="img/hotel.jpg" alt="hotel transilvania">
+            </div>
+            <div class="item">
+                <img class="box-filme"src="img/matrix.jpg" alt="matrix">
+            </div>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
     <footer></footer>
 </body>
 </html>
