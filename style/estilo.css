@@ -1,0 +1,78 @@
+:root{
+    --vermelho: #e90d0de8;
+    --preta:#0e0c0c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* justificar o cabeçalho*/
+    
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(124, 114, 114);
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: aqua;
+}
+.filme-principal{
+    font-size: 16px;
+    background-image: url('../img/capa.jpg');
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex; /*padrão em linha*/
+    flex-direction: column; /*padrão coluna*/
+    justify-content: center; /*elemento centralizado*/
+    align-items: flex-start; /**/
+}
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+.titulo{
+    margin-top: 20px;
+    font-size: 40px; /*tamanho da fonte*/
+    font-family: 'trebuchet';
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: aliceblue;
+    padding: 15px 30px;
+    margin-right: 16px;
+    font-size: 12px;
+    cursor: pointer; /*mudar ponteiro do mouse*/
+    transition: .3s ease all; /*animação*/
+}
+.botao :hover{
+    background-color: white;
+    color: black;
+}
+.botao i {
+    margin-right: 8px;
+}
+.container{
+    margin-left: 50px;
+}
+.filme-principal .container{ /*largura do site*/
+    width: 70%;
+}
