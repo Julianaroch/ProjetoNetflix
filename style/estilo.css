@@ -79,6 +79,8 @@ header nav a:hover{
 .carrossel-filmes{
     width: 1000px;
     height: 500px;
+    margin: auto;
+    padding: 50px;
 }
 .box-filme{
     height: 100%;
